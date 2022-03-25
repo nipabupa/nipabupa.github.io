@@ -3,11 +3,11 @@
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='参考 ArchLinux Wiki 下载ArchLinux官方镜像 ArchLinux官方网站 制作启动U盘 启动U盘根据操作系统自行选择工具制作 Win: UtralISO Mac: balena Etcher / dd命令 Linux: dd命'><title>Archlinux安装</title>
 
-<link rel='canonical' href='https://nipabupa.github.io/post/linux/archlinux/'>
+<link rel='canonical' href='https://nipabupa.github.io/liuzhe/post/linux/archlinux/'>
 
-<link rel="stylesheet" href="/scss/style.min.b80bf249ce4a22cf55e8d7340a0b37a2f2c10f54f3a9a49cb94b694a2eb0bbea.css"><meta property='og:title' content='Archlinux安装'>
+<link rel="stylesheet" href="https://nipabupa.github.io/liuzhe/scss/style.min.b80bf249ce4a22cf55e8d7340a0b37a2f2c10f54f3a9a49cb94b694a2eb0bbea.css"><meta property='og:title' content='Archlinux安装'>
 <meta property='og:description' content='参考 ArchLinux Wiki 下载ArchLinux官方镜像 ArchLinux官方网站 制作启动U盘 启动U盘根据操作系统自行选择工具制作 Win: UtralISO Mac: balena Etcher / dd命令 Linux: dd命'>
-<meta property='og:url' content='https://nipabupa.github.io/post/linux/archlinux/'>
+<meta property='og:url' content='https://nipabupa.github.io/liuzhe/post/linux/archlinux/'>
 <meta property='og:site_name' content='你怕不怕的小黑屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='archlinux' /><meta property='article:published_time' content='2022-03-21T00:29:24&#43;08:00'/><meta property='article:modified_time' content='2022-03-21T00:29:24&#43;08:00'/>
 <meta name="twitter:title" content="Archlinux安装">
@@ -51,13 +51,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/">
+                <a href="https://nipabupa.github.io/liuzhe/">
                 
                     
                     
                     
                         
-                        <img src="/img/avatar_hud934d8508452681244d69bc17e520ccf_32575_300x0_resize_q75_box.jpeg" width="300"
+                        <img src="https://nipabupa.github.io/liuzhe/img/avatar_hud934d8508452681244d69bc17e520ccf_32575_300x0_resize_q75_box.jpeg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -70,7 +70,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">你怕不怕的小黑屋</a></h1>
+            <h1 class="site-name"><a href="https://nipabupa.github.io/liuzhe/">你怕不怕的小黑屋</a></h1>
             <h2 class="site-description">人在塔在</h2>
         </div>
     </header><ol class="social-menu">
@@ -100,7 +100,7 @@
         
 
         <li >
-            <a href='/' >
+            <a href='https://nipabupa.github.io/liuzhe/' >
                 
                 
                 
@@ -121,7 +121,7 @@
         
 
         <li >
-            <a href='/page/archives/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/archives/' >
                 
                 
                 
@@ -142,7 +142,7 @@
         
 
         <li >
-            <a href='/page/links/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/links/' >
                 
                 
                 
@@ -162,7 +162,7 @@
         
 
         <li >
-            <a href='/page/search/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/search/' >
                 
                 
                 
@@ -182,7 +182,7 @@
         
 
         <li >
-            <a href='/page/about/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/about/' >
                 
                 
                 
@@ -233,7 +233,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/linux/" >
+            <a href="https://nipabupa.github.io/liuzhe/categories/linux/" >
                 linux
             </a>
         
@@ -242,7 +242,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/linux/archlinux/">Archlinux安装</a>
+            <a href="https://nipabupa.github.io/liuzhe/post/linux/archlinux/">Archlinux安装</a>
         </h2>
     
         
@@ -317,11 +317,11 @@
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 查看可使用的键盘布局</span>
-ls /usr/share/kbd/keymaps/**/*.map.gz
-<span class="c1"># 加载指定的键盘布局</span>
-loadkeys xxx
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 查看可使用的键盘布局</span>
+</span></span><span class="line"><span class="cl">ls /usr/share/kbd/keymaps/**/*.map.gz
+</span></span><span class="line"><span class="cl"><span class="c1"># 加载指定的键盘布局</span>
+</span></span><span class="line"><span class="cl">loadkeys xxx
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="网络">网络</h4>
 <ul>
@@ -336,9 +336,9 @@ loadkeys xxx
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">timedatectl set-timezone Asia/Shanghai
-timedatectl set-ntp <span class="nb">true</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">timedatectl set-timezone Asia/Shanghai
+</span></span><span class="line"><span class="cl">timedatectl set-ntp <span class="nb">true</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="配置磁盘">配置磁盘</h3>
 <ol>
@@ -360,19 +360,19 @@ timedatectl set-ntp <span class="nb">true</span>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">lsblk
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-nvme0n1     259:0    <span class="m">0</span> 465.8G  <span class="m">0</span> disk                        <span class="c1"># 我的硬盘</span>
-├─nvme0n1p1 259:1    <span class="m">0</span>    99M  <span class="m">0</span> part                        <span class="c1"># Win10 EFI分区</span>
-├─nvme0n1p2 259:2    <span class="m">0</span>   128M  <span class="m">0</span> part                        <span class="c1"># Win10 不造啥分区</span>
-├─nvme0n1p3 259:3    <span class="m">0</span>  99.4G  <span class="m">0</span> part                        <span class="c1"># Win10 C盘</span>
-├─nvme0n1p4 259:4    <span class="m">0</span>   577M  <span class="m">0</span> part                        <span class="c1"># Win10 不造啥分区</span>
-├─nvme0n1p5 259:5    <span class="m">0</span>    50G  <span class="m">0</span> part                        <span class="c1"># Win10 D盘</span>
-├─nvme0n1p6 259:6    <span class="m">0</span> 215.5G  <span class="m">0</span> part                        <span class="c1"># Win10 E盘</span>
-├─nvme0n1p7 259:7    <span class="m">0</span>   512M  <span class="m">0</span> part /boot/EFI              <span class="c1"># ArchLinux EFI分区  -- 即将创建的分区</span>
-├─nvme0n1p8 259:8    <span class="m">0</span>    40G  <span class="m">0</span> part /                      <span class="c1"># ArchLinux 根分区  -- 即将创建的分区</span>
-└─nvme0n1p9 259:9    <span class="m">0</span>  59.5G  <span class="m">0</span> part /home                  <span class="c1"># ArchLinux home分区  -- 即将创建的分区</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">lsblk
+</span></span><span class="line"><span class="cl">NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+</span></span><span class="line"><span class="cl">nvme0n1     259:0    <span class="m">0</span> 465.8G  <span class="m">0</span> disk                        <span class="c1"># 我的硬盘</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p1 259:1    <span class="m">0</span>    99M  <span class="m">0</span> part                        <span class="c1"># Win10 EFI分区</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p2 259:2    <span class="m">0</span>   128M  <span class="m">0</span> part                        <span class="c1"># Win10 不造啥分区</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p3 259:3    <span class="m">0</span>  99.4G  <span class="m">0</span> part                        <span class="c1"># Win10 C盘</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p4 259:4    <span class="m">0</span>   577M  <span class="m">0</span> part                        <span class="c1"># Win10 不造啥分区</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p5 259:5    <span class="m">0</span>    50G  <span class="m">0</span> part                        <span class="c1"># Win10 D盘</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p6 259:6    <span class="m">0</span> 215.5G  <span class="m">0</span> part                        <span class="c1"># Win10 E盘</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p7 259:7    <span class="m">0</span>   512M  <span class="m">0</span> part /boot/EFI              <span class="c1"># ArchLinux EFI分区  -- 即将创建的分区</span>
+</span></span><span class="line"><span class="cl">├─nvme0n1p8 259:8    <span class="m">0</span>    40G  <span class="m">0</span> part /                      <span class="c1"># ArchLinux 根分区  -- 即将创建的分区</span>
+</span></span><span class="line"><span class="cl">└─nvme0n1p9 259:9    <span class="m">0</span>  59.5G  <span class="m">0</span> part /home                  <span class="c1"># ArchLinux home分区  -- 即将创建的分区</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="2">
 <li>创建分区</li>
@@ -387,8 +387,8 @@ nvme0n1     259:0    <span class="m">0</span> 465.8G  <span class="m">0</span> d
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">fdisk /dev/nvme0n1  <span class="c1"># 用法自己查</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fdisk /dev/nvme0n1  <span class="c1"># 用法自己查</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="3">
 <li>格式化分区</li>
@@ -400,10 +400,10 @@ nvme0n1     259:0    <span class="m">0</span> 465.8G  <span class="m">0</span> d
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">mkfs.vfat /dev/nvme0n1p7  <span class="c1"># EFI分区格式为vfat</span>
-mkfs.ext4 /dev/nvme0n1p8  <span class="c1"># 根分区格式为ext4</span>
-mkfs.ext4 /dev/nvme0n1p9  <span class="c1"># 家分区格式为ext4</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkfs.vfat /dev/nvme0n1p7  <span class="c1"># EFI分区格式为vfat</span>
+</span></span><span class="line"><span class="cl">mkfs.ext4 /dev/nvme0n1p8  <span class="c1"># 根分区格式为ext4</span>
+</span></span><span class="line"><span class="cl">mkfs.ext4 /dev/nvme0n1p9  <span class="c1"># 家分区格式为ext4</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="4">
 <li>挂载分区</li>
@@ -417,12 +417,12 @@ mkfs.ext4 /dev/nvme0n1p9  <span class="c1"># 家分区格式为ext4</span>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">mount /dev/nvme0n1p8 /mnt
-mkdir -p /mnt/boot/EFI
-mkdir -p /mnt/home
-mount /dev/nvme0n1p7 /mnt/boot/EFI
-mount /dev/nvme0n1p9 /mnt/home
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/nvme0n1p8 /mnt
+</span></span><span class="line"><span class="cl">mkdir -p /mnt/boot/EFI
+</span></span><span class="line"><span class="cl">mkdir -p /mnt/home
+</span></span><span class="line"><span class="cl">mount /dev/nvme0n1p7 /mnt/boot/EFI
+</span></span><span class="line"><span class="cl">mount /dev/nvme0n1p9 /mnt/home
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="配置pacman源">配置Pacman源</h3>
 <p>修改<code>/etc/pacman.d/mirrorlist</code>在软件源列表最上方添加国内的源</p>
@@ -438,8 +438,8 @@ mount /dev/nvme0n1p9 /mnt/home
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacstrap /mnt base linux linux-firmware
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacstrap /mnt base linux linux-firmware
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="生成分区表">生成分区表</h3>
 <div class="highlight"><div class="chroma">
@@ -447,8 +447,8 @@ mount /dev/nvme0n1p9 /mnt/home
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="切换根分区">切换根分区</h3>
 <div class="highlight"><div class="chroma">
@@ -456,8 +456,8 @@ mount /dev/nvme0n1p9 /mnt/home
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">arch-chroot /mnt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arch-chroot /mnt
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="时区">时区</h3>
 <div class="highlight"><div class="chroma">
@@ -466,9 +466,9 @@ mount /dev/nvme0n1p9 /mnt/home
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-hwclock --systohc
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+</span></span><span class="line"><span class="cl">hwclock --systohc
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="语言">语言</h3>
 <p>编辑<code>/etc/locale.gen</code>, 去掉<code>en_US.UTF-8</code>的注释</p>
@@ -477,8 +477,8 @@ hwclock --systohc
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">locale-gen
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">locale-gen
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>编辑<code>/etc/vconsole.conf</code>，添加<code>LANG=en_US.UTF-8</code></p>
 <h3 id="修改root密码">修改root密码</h3>
@@ -487,8 +487,8 @@ hwclock --systohc
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">passwd
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">passwd
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="安装必须的软件包">安装必须的软件包</h3>
 <p>使用<code>pamman</code>安装如下软件包
@@ -498,8 +498,8 @@ CPU</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacman -S xxx xxx xxx ...
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S xxx xxx xxx ...
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="table-wrapper"><table>
 <thead>
@@ -552,17 +552,17 @@ CPU</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 安装引导软件</span>
-pacman -S grub efimanager os-prober
-<span class="c1"># 如果你有Windows</span>
-mkdir /boot/EFI/EFI-WIN
-<span class="c1"># 挂载Windows的EFI分区</span>
-mount /dev/nvme0n1p1 /boot/EFI/EFI-WIN
-<span class="c1"># 生成引导</span>
-grub-install --target<span class="o">=</span>x86_64-efi --efi-directory<span class="o">=</span>/boot/EFI --bootleader-id<span class="o">=</span>ArchLinux
-<span class="c1"># 生成启动配置</span>
-grub-mkconfig -o /boot/grub/grub.cfg
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 安装引导软件</span>
+</span></span><span class="line"><span class="cl">pacman -S grub efimanager os-prober
+</span></span><span class="line"><span class="cl"><span class="c1"># 如果你有Windows</span>
+</span></span><span class="line"><span class="cl">mkdir /boot/EFI/EFI-WIN
+</span></span><span class="line"><span class="cl"><span class="c1"># 挂载Windows的EFI分区</span>
+</span></span><span class="line"><span class="cl">mount /dev/nvme0n1p1 /boot/EFI/EFI-WIN
+</span></span><span class="line"><span class="cl"><span class="c1"># 生成引导</span>
+</span></span><span class="line"><span class="cl">grub-install --target<span class="o">=</span>x86_64-efi --efi-directory<span class="o">=</span>/boot/EFI --bootleader-id<span class="o">=</span>ArchLinux
+</span></span><span class="line"><span class="cl"><span class="c1"># 生成启动配置</span>
+</span></span><span class="line"><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="退出重启">退出重启</h3>
 <div class="highlight"><div class="chroma">
@@ -572,10 +572,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">exit</span>
-umount -R /mnt
-reboot
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">exit</span>
+</span></span><span class="line"><span class="cl">umount -R /mnt
+</span></span><span class="line"><span class="cl">reboot
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>至此ArchLinux安装完成，重启后进入grub界面，选择ArchLinux进入archlinux，选择windows boot manager进入Windows</p>
 <h2 id="kde">KDE</h2>
@@ -587,10 +587,10 @@ reboot
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">groupadd mygroup
-useradd myname -m -d /home/myname 
-passwd myname
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">groupadd mygroup
+</span></span><span class="line"><span class="cl">useradd myname -m -d /home/myname 
+</span></span><span class="line"><span class="cl">passwd myname
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="安装kde">安装KDE</h3>
 <div class="highlight"><div class="chroma">
@@ -612,22 +612,22 @@ passwd myname
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bas" data-lang="bas"><span class="err">#</span><span class="w"> </span><span class="vg">基础包</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xorg</span><span class="w"> </span><span class="vg">xorg</span><span class="o">-</span><span class="vg">serve</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">sddm</span><span class="w"> </span><span class="vg">kde</span><span class="o">-</span><span class="vg">applications</span><span class="w"> </span><span class="vg">sddm</span><span class="o">-</span><span class="vg">kcm</span>
-<span class="err">#（</span><span class="vg">可选</span><span class="err">）</span><span class="vg">集显驱动</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xf86</span><span class="o">-</span><span class="vg">video</span><span class="o">-</span><span class="vg">intel</span><span class="w">  </span><span class="err">#</span><span class="vg">intel</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xf86</span><span class="o">-</span><span class="vg">video</span><span class="o">-</span><span class="vg">ati</span><span class="w">    </span><span class="err">#</span><span class="vg">amd</span>
-<span class="err">#（</span><span class="vg">可选</span><span class="err">）</span><span class="vg">Nvidia驱动</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">nvidia</span>
-<span class="err">#</span><span class="w"> </span><span class="vg">声音</span>
-<span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">alsa</span><span class="o">-</span><span class="vg">utils</span><span class="w"> </span><span class="vg">pulseaudio</span><span class="w"> </span><span class="vg">pulseaudio</span><span class="o">-</span><span class="vg">alsa</span>
-
-<span class="err">#</span><span class="w"> </span><span class="vg">自启动</span>
-<span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">sddm</span>
-<span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">NetworkManager</span>
-<span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">dhcpcd</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bas" data-lang="bas"><span class="line"><span class="cl"><span class="err">#</span><span class="w"> </span><span class="vg">基础包</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xorg</span><span class="w"> </span><span class="vg">xorg</span><span class="o">-</span><span class="vg">serve</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">sddm</span><span class="w"> </span><span class="vg">kde</span><span class="o">-</span><span class="vg">applications</span><span class="w"> </span><span class="vg">sddm</span><span class="o">-</span><span class="vg">kcm</span>
+</span></span><span class="line"><span class="cl"><span class="err">#（</span><span class="vg">可选</span><span class="err">）</span><span class="vg">集显驱动</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xf86</span><span class="o">-</span><span class="vg">video</span><span class="o">-</span><span class="vg">intel</span><span class="w">  </span><span class="err">#</span><span class="vg">intel</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">xf86</span><span class="o">-</span><span class="vg">video</span><span class="o">-</span><span class="vg">ati</span><span class="w">    </span><span class="err">#</span><span class="vg">amd</span>
+</span></span><span class="line"><span class="cl"><span class="err">#（</span><span class="vg">可选</span><span class="err">）</span><span class="vg">Nvidia驱动</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">nvidia</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="w"> </span><span class="vg">声音</span>
+</span></span><span class="line"><span class="cl"><span class="vg">pacman</span><span class="w"> </span><span class="o">-</span><span class="vg">S</span><span class="w"> </span><span class="vg">alsa</span><span class="o">-</span><span class="vg">utils</span><span class="w"> </span><span class="vg">pulseaudio</span><span class="w"> </span><span class="vg">pulseaudio</span><span class="o">-</span><span class="vg">alsa</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="w"> </span><span class="vg">自启动</span>
+</span></span><span class="line"><span class="cl"><span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">sddm</span>
+</span></span><span class="line"><span class="cl"><span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">NetworkManager</span>
+</span></span><span class="line"><span class="cl"><span class="vg">systemctl</span><span class="w"> </span><span class="vg">enable</span><span class="w"> </span><span class="vg">dhcpcd</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="配置">配置</h3>
 <h4 id="输入法">输入法</h4>
@@ -643,15 +643,15 @@ passwd myname
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacman -S fcitx fcitx-im fcitx-configtool 
-yay -S fcitx-sogoupingyin
-
-vim /home/myusername/.xprofile
-<span class="c1"># 添加</span>
-<span class="nb">export</span> <span class="nv">GTK_IM_MODULE</span><span class="o">=</span>fcitx
-<span class="nb">export</span> <span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx
-<span class="nb">export</span> <span class="nv">XMODIFIERS</span><span class="o">=</span><span class="s2">&#34;@im=fcitx&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S fcitx fcitx-im fcitx-configtool 
+</span></span><span class="line"><span class="cl">yay -S fcitx-sogoupingyin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">vim /home/myusername/.xprofile
+</span></span><span class="line"><span class="cl"><span class="c1"># 添加</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GTK_IM_MODULE</span><span class="o">=</span>fcitx
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">XMODIFIERS</span><span class="o">=</span><span class="s2">&#34;@im=fcitx&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="oh-my-zsh">oh-my-zsh</h4>
 <div class="highlight"><div class="chroma">
@@ -660,9 +660,9 @@ vim /home/myusername/.xprofile
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacman -S zsh
-sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S zsh
+</span></span><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>主题<code>ys</code></p>
 <h4 id="neofetch">neofetch</h4>
@@ -671,8 +671,8 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacman -S neofetch
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S neofetch
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="全局主题">全局主题</h4>
 <p>使用WhiteSur</p>
@@ -682,14 +682,14 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pacman -S latte-dock
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S latte-dock
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="最终效果">最终效果</h2>
-<p><img src="/post/linux/archlinux/pingmu1.png"
+<p><img src="https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu1.png"
 	width="2560"
 	height="1440"
-	srcset="/post/linux/archlinux/pingmu1_hu3e71cf9c59b8be43921e0d72e975456d_2227534_480x0_resize_box_3.png 480w, /post/linux/archlinux/pingmu1_hu3e71cf9c59b8be43921e0d72e975456d_2227534_1024x0_resize_box_3.png 1024w"
+	srcset="https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu1_hu3e71cf9c59b8be43921e0d72e975456d_2227534_480x0_resize_box_3.png 480w, https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu1_hu3e71cf9c59b8be43921e0d72e975456d_2227534_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
 		alt="系统配置"
@@ -700,10 +700,10 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
 		data-flex-basis="426px"
 	
 ></p>
-<p><img src="/post/linux/archlinux/pingmu2.png"
+<p><img src="https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu2.png"
 	width="2560"
 	height="1440"
-	srcset="/post/linux/archlinux/pingmu2_hu863b535d7d0c9024931c7a93bd46d2c2_1158232_480x0_resize_box_3.png 480w, /post/linux/archlinux/pingmu2_hu863b535d7d0c9024931c7a93bd46d2c2_1158232_1024x0_resize_box_3.png 1024w"
+	srcset="https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu2_hu863b535d7d0c9024931c7a93bd46d2c2_1158232_480x0_resize_box_3.png 480w, https://nipabupa.github.io/liuzhe/post/linux/archlinux/pingmu2_hu863b535d7d0c9024931c7a93bd46d2c2_1158232_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
 		alt="桌面"
@@ -722,7 +722,7 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
     
     <section class="article-tags">
         
-            <a href="/tags/archlinux/">archlinux</a>
+            <a href="https://nipabupa.github.io/liuzhe/tags/archlinux/">archlinux</a>
         
     </section>
 
@@ -767,7 +767,7 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
             
                 
 <article class="">
-    <a href="/post/linux/rpm/">
+    <a href="https://nipabupa.github.io/liuzhe/post/linux/rpm/">
         
         
 
@@ -779,7 +779,7 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
             
                 
 <article class="">
-    <a href="/post/linux/yum/">
+    <a href="https://nipabupa.github.io/liuzhe/post/linux/yum/">
         
         
 
@@ -970,7 +970,7 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="https://nipabupa.github.io/liuzhe/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

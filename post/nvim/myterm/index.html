@@ -3,11 +3,11 @@
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='博主的终端以及neovim配置框架，个人感觉很好用，windows与Mac/Linux都OK。 仓库地址 安装 一、终端安装与配置 Unix 使用喜欢的终端'><title>Myterm安装与配置</title>
 
-<link rel='canonical' href='https://nipabupa.github.io/post/nvim/myterm/'>
+<link rel='canonical' href='https://nipabupa.github.io/liuzhe/post/nvim/myterm/'>
 
-<link rel="stylesheet" href="/scss/style.min.b80bf249ce4a22cf55e8d7340a0b37a2f2c10f54f3a9a49cb94b694a2eb0bbea.css"><meta property='og:title' content='Myterm安装与配置'>
+<link rel="stylesheet" href="https://nipabupa.github.io/liuzhe/scss/style.min.b80bf249ce4a22cf55e8d7340a0b37a2f2c10f54f3a9a49cb94b694a2eb0bbea.css"><meta property='og:title' content='Myterm安装与配置'>
 <meta property='og:description' content='博主的终端以及neovim配置框架，个人感觉很好用，windows与Mac/Linux都OK。 仓库地址 安装 一、终端安装与配置 Unix 使用喜欢的终端'>
-<meta property='og:url' content='https://nipabupa.github.io/post/nvim/myterm/'>
+<meta property='og:url' content='https://nipabupa.github.io/liuzhe/post/nvim/myterm/'>
 <meta property='og:site_name' content='你怕不怕的小黑屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='nvim配置' /><meta property='article:published_time' content='2022-03-21T00:41:28&#43;08:00'/><meta property='article:modified_time' content='2022-03-21T00:41:28&#43;08:00'/>
 <meta name="twitter:title" content="Myterm安装与配置">
@@ -51,13 +51,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/">
+                <a href="https://nipabupa.github.io/liuzhe/">
                 
                     
                     
                     
                         
-                        <img src="/img/avatar_hud934d8508452681244d69bc17e520ccf_32575_300x0_resize_q75_box.jpeg" width="300"
+                        <img src="https://nipabupa.github.io/liuzhe/img/avatar_hud934d8508452681244d69bc17e520ccf_32575_300x0_resize_q75_box.jpeg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -70,7 +70,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">你怕不怕的小黑屋</a></h1>
+            <h1 class="site-name"><a href="https://nipabupa.github.io/liuzhe/">你怕不怕的小黑屋</a></h1>
             <h2 class="site-description">人在塔在</h2>
         </div>
     </header><ol class="social-menu">
@@ -100,7 +100,7 @@
         
 
         <li >
-            <a href='/' >
+            <a href='https://nipabupa.github.io/liuzhe/' >
                 
                 
                 
@@ -121,7 +121,7 @@
         
 
         <li >
-            <a href='/page/archives/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/archives/' >
                 
                 
                 
@@ -142,7 +142,7 @@
         
 
         <li >
-            <a href='/page/links/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/links/' >
                 
                 
                 
@@ -162,7 +162,7 @@
         
 
         <li >
-            <a href='/page/search/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/search/' >
                 
                 
                 
@@ -182,7 +182,7 @@
         
 
         <li >
-            <a href='/page/about/' >
+            <a href='https://nipabupa.github.io/liuzhe/page/about/' >
                 
                 
                 
@@ -233,7 +233,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/nvim/" >
+            <a href="https://nipabupa.github.io/liuzhe/categories/nvim/" >
                 nvim
             </a>
         
@@ -242,7 +242,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/nvim/myterm/">Myterm安装与配置</a>
+            <a href="https://nipabupa.github.io/liuzhe/post/nvim/myterm/">Myterm安装与配置</a>
         </h2>
     
         
@@ -372,30 +372,30 @@
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~
-
-<span class="c1"># 下载代码</span>
-git clone https://gitee.com/dingor/myterm.git
-
-<span class="c1"># 建个软连接至stdpath(&#39;config&#39;)</span>
-ln -s ~/myterm/nvim ~/.config/nvim
-
-<span class="c1"># 下载nvim包管理器packer至stdpath(&#39;data&#39;)</span>
-git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-
-<span class="c1"># 把nvim加入环境变量，打开nvim</span>
-<span class="c1"># 打开neovim，treesisster会自动下载编译对应的解析器，发现左下角有downloading或compiling就稍等一会，会依赖gcc系统，注意提前下载</span>
-nvim
-
-<span class="c1"># 下载所有插件</span>
-:PackerSync
-
-<span class="c1"># 编译一下</span>
-:PackerCompile
-
-<span class="c1"># 重新启动下nvim, 完成</span>
-nvim
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载代码</span>
+</span></span><span class="line"><span class="cl">git clone https://gitee.com/dingor/myterm.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 建个软连接至stdpath(&#39;config&#39;)</span>
+</span></span><span class="line"><span class="cl">ln -s ~/myterm/nvim ~/.config/nvim
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载nvim包管理器packer至stdpath(&#39;data&#39;)</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 把nvim加入环境变量，打开nvim</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 打开neovim，treesisster会自动下载编译对应的解析器，发现左下角有downloading或compiling就稍等一会，会依赖gcc系统，注意提前下载</span>
+</span></span><span class="line"><span class="cl">nvim
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载所有插件</span>
+</span></span><span class="line"><span class="cl">:PackerSync
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 编译一下</span>
+</span></span><span class="line"><span class="cl">:PackerCompile
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 重新启动下nvim, 完成</span>
+</span></span><span class="line"><span class="cl">nvim
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="使用">使用</h2>
 <p>基础的操作就不说了，一下仅说下插件配置与一些特殊的配置</p>
@@ -409,7 +409,7 @@ nvim
     
     <section class="article-tags">
         
-            <a href="/tags/nvim%E9%85%8D%E7%BD%AE/">nvim配置</a>
+            <a href="https://nipabupa.github.io/liuzhe/tags/nvim%E9%85%8D%E7%BD%AE/">nvim配置</a>
         
     </section>
 
@@ -606,7 +606,7 @@ nvim
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="https://nipabupa.github.io/liuzhe/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

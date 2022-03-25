@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 你怕不怕的小黑屋</title>
-        <link>https://nipabupa.github.io/categories/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/</link>
         <description>Recent content in Categories on 你怕不怕的小黑屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 24 Mar 2022 23:39:34 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 24 Mar 2022 23:39:34 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/liuzhe/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Python Package</title>
-        <link>https://nipabupa.github.io/categories/python-package/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/python-package/</link>
         <pubDate>Thu, 24 Mar 2022 23:39:34 +0800</pubDate>
         
-        <guid>https://nipabupa.github.io/categories/python-package/</guid>
+        <guid>https://nipabupa.github.io/liuzhe/categories/python-package/</guid>
         <description></description>
         </item>
         <item>
         <title>nvim</title>
-        <link>https://nipabupa.github.io/categories/nvim/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/nvim/</link>
         <pubDate>Mon, 21 Mar 2022 00:41:28 +0800</pubDate>
         
-        <guid>https://nipabupa.github.io/categories/nvim/</guid>
+        <guid>https://nipabupa.github.io/liuzhe/categories/nvim/</guid>
         <description></description>
         </item>
         <item>
         <title>Python</title>
-        <link>https://nipabupa.github.io/categories/python/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/python/</link>
         <pubDate>Mon, 21 Mar 2022 00:39:59 +0800</pubDate>
         
-        <guid>https://nipabupa.github.io/categories/python/</guid>
+        <guid>https://nipabupa.github.io/liuzhe/categories/python/</guid>
         <description></description>
         </item>
         <item>
         <title>linux</title>
-        <link>https://nipabupa.github.io/categories/linux/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/linux/</link>
         <pubDate>Mon, 21 Mar 2022 00:31:24 +0800</pubDate>
         
-        <guid>https://nipabupa.github.io/categories/linux/</guid>
+        <guid>https://nipabupa.github.io/liuzhe/categories/linux/</guid>
         <description></description>
         </item>
         

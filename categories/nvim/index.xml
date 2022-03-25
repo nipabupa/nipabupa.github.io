@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>nvim on 你怕不怕的小黑屋</title>
-        <link>https://nipabupa.github.io/categories/nvim/</link>
+        <link>https://nipabupa.github.io/liuzhe/categories/nvim/</link>
         <description>Recent content in nvim on 你怕不怕的小黑屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 21 Mar 2022 00:41:28 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/categories/nvim/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 21 Mar 2022 00:41:28 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/liuzhe/categories/nvim/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Myterm安装与配置</title>
-        <link>https://nipabupa.github.io/post/nvim/myterm/</link>
+        <link>https://nipabupa.github.io/liuzhe/post/nvim/myterm/</link>
         <pubDate>Mon, 21 Mar 2022 00:41:28 +0800</pubDate>
         
-        <guid>https://nipabupa.github.io/post/nvim/myterm/</guid>
+        <guid>https://nipabupa.github.io/liuzhe/post/nvim/myterm/</guid>
         <description>&lt;p&gt;博主的终端以及neovim配置框架，个人感觉很好用，windows与Mac/Linux都OK。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitee.com/dingor/myterm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;仓库地址&lt;/a&gt;&lt;/p&gt;
@@ -94,30 +94,30 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
-
-&lt;span class=&#34;c1&#34;&gt;# 下载代码&lt;/span&gt;
-git clone https://gitee.com/dingor/myterm.git
-
-&lt;span class=&#34;c1&#34;&gt;# 建个软连接至stdpath(&amp;#39;config&amp;#39;)&lt;/span&gt;
-ln -s ~/myterm/nvim ~/.config/nvim
-
-&lt;span class=&#34;c1&#34;&gt;# 下载nvim包管理器packer至stdpath(&amp;#39;data&amp;#39;)&lt;/span&gt;
-git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-
-&lt;span class=&#34;c1&#34;&gt;# 把nvim加入环境变量，打开nvim&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# 打开neovim，treesisster会自动下载编译对应的解析器，发现左下角有downloading或compiling就稍等一会，会依赖gcc系统，注意提前下载&lt;/span&gt;
-nvim
-
-&lt;span class=&#34;c1&#34;&gt;# 下载所有插件&lt;/span&gt;
-:PackerSync
-
-&lt;span class=&#34;c1&#34;&gt;# 编译一下&lt;/span&gt;
-:PackerCompile
-
-&lt;span class=&#34;c1&#34;&gt;# 重新启动下nvim, 完成&lt;/span&gt;
-nvim
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 下载代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://gitee.com/dingor/myterm.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 建个软连接至stdpath(&amp;#39;config&amp;#39;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ln -s ~/myterm/nvim ~/.config/nvim
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 下载nvim包管理器packer至stdpath(&amp;#39;data&amp;#39;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 把nvim加入环境变量，打开nvim&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 打开neovim，treesisster会自动下载编译对应的解析器，发现左下角有downloading或compiling就稍等一会，会依赖gcc系统，注意提前下载&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvim
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 下载所有插件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;:PackerSync
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 编译一下&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;:PackerCompile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 重新启动下nvim, 完成&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvim
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
 &lt;p&gt;基础的操作就不说了，一下仅说下插件配置与一些特殊的配置&lt;/p&gt;
