@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>nvim配置 on 你怕不怕的小黑屋</title>
+        <link>https://nipabupa.github.io/tags/nvim%E9%85%8D%E7%BD%AE/</link>
+        <description>Recent content in nvim配置 on 你怕不怕的小黑屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 21 Mar 2022 00:41:28 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/tags/nvim%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Myterm安装与配置</title>
+        <link>https://nipabupa.github.io/post/nvim/myterm/</link>
+        <pubDate>Mon, 21 Mar 2022 00:41:28 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/post/nvim/myterm/</guid>
+        <description>&lt;p&gt;博主的终端以及neovim配置框架，个人感觉很好用，windows与Mac/Linux都OK。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitee.com/dingor/myterm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;仓库地址&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;h3 id=&#34;一终端安装与配置&#34;&gt;一、终端安装与配置&lt;/h3&gt;
+&lt;h4 id=&#34;unix&#34;&gt;Unix&lt;/h4&gt;
+&lt;p&gt;使用喜欢的终端即可，Mac推荐&lt;code&gt;Item2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;shell推荐&lt;code&gt;zsh + oh-my-zsh&lt;/code&gt;，配置方式&lt;a class=&#34;link&#34; href=&#34;https://ohmyz.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;很详细&lt;/p&gt;
+&lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Windows Terminal + powershell + oh-my-posh&lt;/code&gt;，参考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/zh-cn/windows/terminal/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termianl官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ohmyposh.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;oh-my-posh官网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;code&gt;Windows Terminal + WSL + oh-my-zsh&lt;/code&gt;，参考Unix就行了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;PS: 一定要用&lt;code&gt;WindowsTerminal&lt;/code&gt;，不然会显示异常，至于shell的话随意&lt;/p&gt;
+&lt;h3 id=&#34;二字体选择&#34;&gt;二、字体选择&lt;/h3&gt;
+&lt;p&gt;基础原则为选择&lt;a class=&#34;link&#34; href=&#34;https://www.nerdfonts.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nerd Font字体&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但是目前发现部分Nerd Font字体对于Neovim中部分组件（比如&lt;code&gt;Telescope.nvim&lt;/code&gt;）的边框渲染存在问题，因此需要根据个人喜好选择。&lt;/p&gt;
+&lt;p&gt;这里推荐两款: &lt;strong&gt;DejaVuSans&lt;/strong&gt;、&lt;strong&gt;Hack&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三终端工具&#34;&gt;三、终端工具&lt;/h3&gt;
+&lt;p&gt;直接在Github下载可执行文件至指定目录并配置环境变量即可(或者通过包管理器安装，爱咋咋)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/sharkdp/fd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;fd&lt;/a&gt;，必要&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/BurntSushi/ripgrep&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ripgrep&lt;/a&gt;，必要&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/sharkdp/bat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/junegunn/fzf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;fzf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/extrawurst/gitui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gitui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/charmbracelet/glow&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;glow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;四lsp-server与nodejs&#34;&gt;四、LSP Server与NodeJS&lt;/h3&gt;
+&lt;p&gt;NodeJS与NPM是可选项，主要是由于很多LSP Server是基于NPM包发布的，需要使用NPM安装&lt;/p&gt;
+&lt;p&gt;具体可以参考&lt;a class=&#34;link&#34; href=&#34;https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;neovim-lspconfig: LSP配置&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;五neovim安装&#34;&gt;五、Neovim安装&lt;/h3&gt;
+&lt;p&gt;直接从Github下载然后配置环境变量就行了，当然你的包管理器能搜到直接通过包管理器也行，版本&amp;gt;=0.6.0&lt;/p&gt;
+&lt;h3 id=&#34;六gcc全家桶&#34;&gt;六、GCC全家桶&lt;/h3&gt;
+&lt;p&gt;Unix下就不说了，一般都自带，没有就自己安装下&lt;/p&gt;
+&lt;p&gt;Windows下需要下载mingw64，然后配置个环境变量&lt;/p&gt;
+&lt;h3 id=&#34;六配置&#34;&gt;六、配置&lt;/h3&gt;
+&lt;p&gt;一下给出了Unix下如何下载配置myterm，windows上的话可以参考注释手动执行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
+
+&lt;span class=&#34;c1&#34;&gt;# 下载代码&lt;/span&gt;
+git clone https://gitee.com/dingor/myterm.git
+
+&lt;span class=&#34;c1&#34;&gt;# 建个软连接至stdpath(&amp;#39;config&amp;#39;)&lt;/span&gt;
+ln -s ~/myterm/nvim ~/.config/nvim
+
+&lt;span class=&#34;c1&#34;&gt;# 下载nvim包管理器packer至stdpath(&amp;#39;data&amp;#39;)&lt;/span&gt;
+git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+&lt;span class=&#34;c1&#34;&gt;# 把nvim加入环境变量，打开nvim&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# 打开neovim，treesisster会自动下载编译对应的解析器，发现左下角有downloading或compiling就稍等一会，会依赖gcc系统，注意提前下载&lt;/span&gt;
+nvim
+
+&lt;span class=&#34;c1&#34;&gt;# 下载所有插件&lt;/span&gt;
+:PackerSync
+
+&lt;span class=&#34;c1&#34;&gt;# 编译一下&lt;/span&gt;
+:PackerCompile
+
+&lt;span class=&#34;c1&#34;&gt;# 重新启动下nvim, 完成&lt;/span&gt;
+nvim
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;基础的操作就不说了，一下仅说下插件配置与一些特殊的配置&lt;/p&gt;
+&lt;h3 id=&#34;常用工具&#34;&gt;常用工具&lt;/h3&gt;
+&lt;h3 id=&#34;一插件&#34;&gt;一、插件&lt;/h3&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

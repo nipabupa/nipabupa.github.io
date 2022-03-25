@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 你怕不怕的小黑屋</title>
+        <link>https://nipabupa.github.io/page/</link>
+        <description>Recent content in Pages on 你怕不怕的小黑屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 21 Mar 2022 00:31:24 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>文章</title>
+        <link>https://nipabupa.github.io/page/archives/</link>
+        <pubDate>Mon, 21 Mar 2022 00:31:24 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://nipabupa.github.io/page/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nipabupa.github.io/page/about/</guid>
+        <description>&lt;h3 id=&#34;博客信息&#34;&gt;博客信息&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;姓名：刘哲&lt;/li&gt;
+&lt;li&gt;码云：&lt;code&gt;https://gitee.com/dingor&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Github部署地址: &lt;code&gt;https://nipabupa.github.io/liuzhe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;技术栈&#34;&gt;技术栈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub的GitHub Page服务&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;Hugo-theme-stack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;原来用的vuepress与开源主题，😕   😕 但是发现不方便编辑，就切换到了Hugo。&lt;/p&gt;
+&lt;p&gt;真香。。。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://nipabupa.github.io/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nipabupa.github.io/page/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>网站收藏</title>
+        <link>https://nipabupa.github.io/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://nipabupa.github.io/page/links/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

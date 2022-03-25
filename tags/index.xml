@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on 你怕不怕的小黑屋</title>
+        <link>https://nipabupa.github.io/tags/</link>
+        <description>Recent content in Tags on 你怕不怕的小黑屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 24 Mar 2022 23:39:34 +0800</lastBuildDate><atom:link href="https://nipabupa.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>gui</title>
+        <link>https://nipabupa.github.io/tags/gui/</link>
+        <pubDate>Thu, 24 Mar 2022 23:39:34 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/tags/gui/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>nvim配置</title>
+        <link>https://nipabupa.github.io/tags/nvim%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 21 Mar 2022 00:41:28 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/tags/nvim%E9%85%8D%E7%BD%AE/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Python语法</title>
+        <link>https://nipabupa.github.io/tags/python%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Mon, 21 Mar 2022 00:39:59 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/tags/python%E8%AF%AD%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linux包管理</title>
+        <link>https://nipabupa.github.io/tags/linux%E5%8C%85%E7%AE%A1%E7%90%86/</link>
+        <pubDate>Mon, 21 Mar 2022 00:31:24 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/tags/linux%E5%8C%85%E7%AE%A1%E7%90%86/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>archlinux</title>
+        <link>https://nipabupa.github.io/tags/archlinux/</link>
+        <pubDate>Mon, 21 Mar 2022 00:29:24 +0800</pubDate>
+        
+        <guid>https://nipabupa.github.io/tags/archlinux/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
