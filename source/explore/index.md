@@ -9,6 +9,6 @@ menu_id: explore
 
 {% quot 开源镜像 %}
 
-
+## PyPi
 
 {% quot GitHub仓库 %}
