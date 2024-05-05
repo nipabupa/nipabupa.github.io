@@ -1,0 +1,50 @@
+title: LiuZhe
+avatar: 头像
+logo:
+  icon: /assets/icon.svg
+  title: LiuZhe
+  subtitle: '你怕不怕的小黑屋 | 我好怕啊'
+
+article:
+  share: [wechat, email, link]
+
+# 侧边栏主功能导航菜单
+menubar:
+  columns: 4 # 一行多少个
+  items: 
+    - id: post
+      theme: '#1BCDFC'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+    - id: topic
+      theme: '#3DC550'
+      icon: solar:notebook-bookmark-bold-duotone
+      title: 专栏
+      url: /topic/
+    - id: explore
+      theme: '#FA6400'
+      icon: solar:planet-bold-duotone
+      title: 探索
+      url: /explore/
+    - id: about
+      theme: '#F44336'
+      icon: solar:chat-square-like-bold-duotone
+      title: 社交
+      url: /about/
+
+site_tree:
+  home:
+    rightbar: ghuser, timeline
+  index_blog:
+    rightbar: ghuser, timeline
+  index_topic:
+    rightbar: ghuser, timeline
+  
+
+comment:
+
+tag_plugins:
+  image:
+    fancybox: true
+
