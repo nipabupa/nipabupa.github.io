@@ -1,7 +1,5 @@
-title: LiuZhe
-avatar: 头像
 logo:
-  icon: /assets/icon.svg
+  icon: geo
   title: LiuZhe
   subtitle: '你怕不怕的小黑屋 | 我好怕啊'
 
@@ -10,18 +8,13 @@ article:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 4 # 一行多少个
+  columns: 3 # 一行多少个
   items: 
     - id: post
       theme: '#1BCDFC'
       icon: solar:documents-bold-duotone
       title: 博客
       url: /
-    - id: topic
-      theme: '#3DC550'
-      icon: solar:notebook-bookmark-bold-duotone
-      title: 专栏
-      url: /topic/
     - id: explore
       theme: '#FA6400'
       icon: solar:planet-bold-duotone
@@ -35,7 +28,7 @@ menubar:
 
 site_tree:
   home:
-    rightbar: ghuser, timeline
+    rightbar: tagcloud, timeline
   index_blog:
     rightbar: ghuser, timeline
   index_topic:
