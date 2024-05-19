@@ -1,5 +1,5 @@
 logo:
-  icon: geo
+  icon: /assets/geo.svg
   title: LiuZhe
   subtitle: '你怕不怕的小黑屋 | 我好怕啊'
 
@@ -30,9 +30,9 @@ site_tree:
   home:
     rightbar: tagcloud, timeline
   index_blog:
-    rightbar: ghuser, timeline
+    rightbar: tagcloud, timeline
   index_topic:
-    rightbar: ghuser, timeline
+    rightbar: tagcloud, timeline
   
 
 comment:
@@ -40,4 +40,12 @@ comment:
 tag_plugins:
   image:
     fancybox: true
+  quot:
+    default: # 可以自行配置多种图标方案
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e092ff.png
+      suffix: https://bu.dusays.com/2022/10/24/63567d3e0ab55.png
+    hashtag:
+      prefix: https://bu.dusays.com/2022/10/24/63567d3e07da3.png
 
+style:
+  prefers_theme: dark

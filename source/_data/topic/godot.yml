@@ -1,0 +1,5 @@
+name: GoDot
+title: GoDot游戏引擎
+description: Your free, open‑source game engine
+order_by: -date # 默认是按发布日期倒序排序
+menu_id: topic
